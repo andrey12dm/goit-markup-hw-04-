@@ -137,7 +137,9 @@ header {
 }
 /* Блог второй  */
 .h__one {
-  background-color: #2f303a;
+  background-image: url(/images/fonts.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -184,6 +186,14 @@ header {
 }
 .item ul {
   display: flex;
+}
+.radio {
+  margin-bottom: 30px;
+}
+.radio img {
+  padding: 25px 100px;
+  border-radius: 4px;
+  background: #f5f4fa;
 }
 .item ul div h3 {
   width: 270px;
@@ -299,4 +309,14 @@ ul li {
 }
 .adres a {
   color: rgba(255, 255, 255, 0.6);
+}
+.postcl h2 {
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
 }
