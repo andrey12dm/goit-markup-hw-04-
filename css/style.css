@@ -326,27 +326,39 @@ ul li {
   letter-spacing: 1.08px;
   margin: 94px 0 50px;
 }
-/* .onever a:hover {
+.onever ul {
   display: flex;
-} */
-.hover {
-  padding: 12px;
-  list-style-type: none;
-}
-/* title {
-  display: flex;
-  text-align: center;
+  align-items: center;
   justify-content: center;
+}
+
+.onever ul li {
+  display: flex;
+  box-shadow: none;
+  align-items: center;
+  fill: #afb1b8;
+}
+.onever ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hover {
+  display: flex;
   border-radius: 50%;
   background-color: #2196f3;
-  padding: 12px;
+}
+.svgso {
+  width: 20px;
+  height: 20px;
+}
+.title {
+  text-align: center;
+}
+.onever ul li a:hover {
   width: 44px;
   height: 44px;
-}
-title:hover {
   border-radius: 50%;
   background-color: #2196f3;
-} */
-.svgso {
-  /* padding: 12px; */
+  fill: #ffffff;
 }
