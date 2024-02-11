@@ -342,7 +342,6 @@ header {
 .onever ul li a:hover {
   fill: #ffffff;
 }
-
 /* footer */
 footer {
   background-color: #2f303a;
@@ -354,8 +353,9 @@ footer {
 }
 .adres {
   margin: 20px 0 0 0;
+  display: flex;
 }
-.adres ul li:not(:last-child) {
+.adres .footer__one li:not(:last-child) {
   margin: 9px 0;
 }
 .adres p,
@@ -382,15 +382,54 @@ ul li {
   letter-spacing: 1.08px;
   margin: 94px 0 50px;
 }
+.icom-footer {
+  margin: 0 0 0 70px;
+}
+.icom-footer p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+}
+.icom-footer ul {
+  display: flex;
+  align-items: center;
+}
+.icom-footer ul li {
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+.icom-footer ul li:hover {
+  background-color: #2196f3;
+}
+.icom-footer ul li:not(:last-child) {
+  margin-right: 10px;
+}
+.icom-footer ul li a {
+  width: 20px;
+  height: 20px;
+}
 /* Блог постоянные клиенты  */
 .icom_stile {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .icom_stile {
   margin-bottom: 94px;
 }
-.icom_stile li {
+/* .icom_stile li {
   width: 170px;
   height: 92px;
   flex-shrink: 0;
@@ -410,5 +449,34 @@ ul li {
   border: 1px solid #2196f3;
 }
 .icom_stile li:hover {
+  fill: #2196f3;
+} */
+.companytagline_one {
+  width: 106px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.icom-title {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  flex-shrink: 0;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.icom-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 30px 0 0;
+}
+.icom-title:hover {
+  border-radius: 4px;
+  border: 1px solid #2196f3;
+}
+.title ul li a {
+  fill: #afb1b8;
+}
+.title ul li a:hover {
   fill: #2196f3;
 }
