@@ -321,6 +321,7 @@ header {
   display: flex;
   border-radius: 50%;
   background-color: #2196f3;
+  transition-duration: 3ms;
 }
 .svgso {
   width: 20px;
@@ -352,11 +353,14 @@ footer {
   height: 252px;
 }
 .adres {
-  margin: 20px 0 0 0;
+  /* margin: 20px 0 0 0; */
   display: flex;
 }
 .adres .footer__one li:not(:last-child) {
   margin: 9px 0;
+}
+.adres .footer__one li:first-child {
+  margin: 0 0 20px 0;
 }
 .adres p,
 ul li {
@@ -441,6 +445,7 @@ ul li {
   flex-shrink: 0;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  cursor: pointer;
 }
 .icom-title {
   display: flex;
@@ -451,10 +456,12 @@ ul li {
 .icom-title:hover {
   border-radius: 4px;
   border: 1px solid #2196f3;
+  transition-duration: 3ms;
 }
-.title ul li a {
+.title ul li a svg {
   fill: #afb1b8;
+  transition-duration: 3ms;
 }
-.title ul li a:hover {
+.title ul li:hover a svg {
   fill: #2196f3;
 }
