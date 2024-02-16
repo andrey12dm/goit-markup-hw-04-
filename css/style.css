@@ -429,28 +429,6 @@ ul li {
 .icom_stile {
   margin-bottom: 94px;
 }
-/* .icom_stile li {
-  width: 170px;
-  height: 92px;
-  flex-shrink: 0;
-  border-radius: 4px;
-  border: 1px solid #afb1b8;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  color: #afb1b8;
-}
-.icom_stile li:not(:last-child) {
-  margin: 0 30px 0 0;
-}
-.icom_stile li a:hover {
-  fill: #2196f3;
-  border-radius: 4px;
-  border: 1px solid #2196f3;
-}
-.icom_stile li:hover {
-  fill: #2196f3;
-} */
 .companytagline_one {
   width: 106px;
   height: 60px;
