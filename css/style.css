@@ -126,14 +126,37 @@ header {
 .headre__menu nav ul li a:hover {
   color: #2196f3;
 }
+.tel ul {
+  display: flex;
+}
+.tel ul li {
+  margin: 0 50px 0 0;
+}
+.tel ul li svg {
+  margin: 0 10px 0 0;
+}
+.tel ul li svg {
+  fill: #757575;
+}
+.tel ul li:hover svg {
+  fill: #2196f3;
+}
 .tel a {
   color: #757575;
 }
-.telphon {
-  margin: 0 0 0 50px;
+.tel {
+  /* margin: 0 0 0 50px; */
 }
 .tel a:hover {
   color: #2196f3;
+}
+.menu-svg-mail {
+  width: 16px;
+  height: 12px;
+}
+.menu-svg-phone {
+  width: 10px;
+  height: 16px;
 }
 /* Блог второй  */
 .h__one {
@@ -321,7 +344,6 @@ header {
   display: flex;
   border-radius: 50%;
   background-color: #2196f3;
-  transition-duration: 3ms;
 }
 .svgso {
   width: 20px;
@@ -339,9 +361,11 @@ header {
   border-radius: 50%;
   background-color: #2196f3;
   fill: #ffffff;
+  transition-duration: 3ms;
 }
 .onever ul li a:hover {
   fill: #ffffff;
+  transition-duration: 3ms;
 }
 /* footer */
 footer {
