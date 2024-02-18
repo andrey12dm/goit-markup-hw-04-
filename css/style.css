@@ -122,15 +122,25 @@ header {
 }
 .headre__menu nav ul li a {
   color: #212121;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
 }
 .headre__menu nav ul li a:hover {
   color: #2196f3;
 }
 .tel ul {
   display: flex;
+  align-items: center;
+  text-align: center;
 }
 .tel ul li {
   margin: 0 50px 0 0;
+  display: flex;
+  align-items: center;
 }
 .tel ul li svg {
   margin: 0 10px 0 0;
@@ -143,6 +153,12 @@ header {
 }
 .tel a {
   color: #757575;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
 }
 .tel a:hover {
   color: #2196f3;
@@ -269,6 +285,27 @@ header {
 .item__tow div div:not(:last-child) {
   margin: 0 30px 0 0;
 }
+.item-over {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  position: relative;
+}
+.item-over p {
+  position: absolute;
+  width: 100%;
+  padding: 27px 0;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  background: rgba(47, 48, 58, 0.8);
+}
 /* Блог третий */
 .innit {
   display: flex;
@@ -276,7 +313,6 @@ header {
   background-color: #f5f4fa;
   height: 648px;
 }
-
 .innit h2 {
   color: #212121;
   text-align: center;
@@ -318,6 +354,14 @@ header {
 }
 .innet__item ul li div p {
   margin: 10px 0 16px 0;
+  color: #757575;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
 }
 .onever ul {
   display: flex;
@@ -408,7 +452,7 @@ ul li {
   margin: 94px 0 50px;
 }
 .icom-footer {
-  margin: 0 0 0 70px;
+  margin: 5px 0 0 70px;
 }
 .icom-footer p {
   color: #fff;
