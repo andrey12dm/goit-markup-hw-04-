@@ -144,9 +144,6 @@ header {
 .tel a {
   color: #757575;
 }
-.tel {
-  /* margin: 0 0 0 50px; */
-}
 .tel a:hover {
   color: #2196f3;
 }
