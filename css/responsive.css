@@ -1,0 +1,10 @@
+/** @format */
+
+@media (min-width: 914px) {
+  body {
+    .tel {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

@@ -79,7 +79,7 @@ h6 {
 /* Мой css */
 body {
   block-size: border-box;
-  font-family: roboto;
+  font-family: Roboto;
 }
 html {
   width: 100%;
@@ -122,7 +122,6 @@ header {
 }
 .headre__menu nav ul li a {
   color: #212121;
-  font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -153,14 +152,13 @@ header {
 }
 .tel a {
   color: #757575;
-  font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
 }
-.tel a:hover {
+.tel ul li:hover a {
   color: #2196f3;
 }
 .menu-svg-mail {
@@ -211,7 +209,6 @@ header {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: #fff;
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -239,7 +236,6 @@ header {
 .item ul div h3 {
   width: 270px;
   color: #212121;
-  font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -252,7 +248,6 @@ header {
   height: 72px;
   flex-shrink: 0;
   color: #757575;
-  font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -267,7 +262,6 @@ header {
   height: 42px;
   color: #212121;
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -297,7 +291,6 @@ header {
   padding: 27px 0;
   color: #fff;
   text-align: center;
-  font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -311,12 +304,11 @@ header {
   display: flex;
   justify-content: center;
   background-color: #f5f4fa;
-  height: 648px;
+  padding: 94px 0;
 }
 .innit h2 {
   color: #212121;
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -325,9 +317,6 @@ header {
 }
 .innet__item ul {
   display: flex;
-}
-.innet__item h2 {
-  margin: 94px 0 50px 0;
 }
 .innet__item ul li {
   border-radius: 0px 0px 4px 4px;
@@ -345,7 +334,6 @@ header {
   margin: 30px 0 0 0;
   color: #212121;
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -356,7 +344,6 @@ header {
   margin: 10px 0 16px 0;
   color: #757575;
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -415,7 +402,7 @@ footer {
 .footer__tow {
   display: flex;
   align-items: center;
-  height: 252px;
+  padding: 60px 0;
 }
 .adres {
   /* margin: 20px 0 0 0; */
@@ -439,7 +426,6 @@ ul li {
 }
 .adres a {
   color: rgba(255, 255, 255, 0.6);
-  font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -449,23 +435,24 @@ ul li {
 .adres a:hover {
   color: #2196f3;
 }
+.postcl {
+  padding: 94px 0;
+}
 .postcl h2 {
   color: #212121;
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
-  margin: 94px 0 50px;
+  margin: 0 0 50px 0;
 }
 .icom-footer {
   margin: 5px 0 0 70px;
 }
 .icom-footer p {
   color: #fff;
-  font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -504,9 +491,7 @@ ul li {
   align-items: center;
   justify-content: center;
 }
-.icom_stile {
-  margin-bottom: 94px;
-}
+
 .companytagline_one {
   width: 106px;
   height: 60px;
