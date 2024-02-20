@@ -29,6 +29,7 @@ aside {
 
 html,
 body {
+  font-family: Roboto;
   height: 100%;
   width: 100%;
   font-size: 100%;
@@ -76,11 +77,7 @@ h6 {
   font-weight: 400;
 }
 /* Мои css */
-/* * {
-  box-sizing: border-box;
-} */
 body {
-  font-family: Roboto;
   font-size: 14px;
   font-weight: normal;
   box-sizing: border-box;
@@ -123,7 +120,6 @@ a {
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  /* border-bottom: 1px solid#ECECEC; */
 }
 .header__top .menu {
   display: flex;
@@ -152,6 +148,11 @@ a {
 }
 .header div nav ul li a {
   color: #212121;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
 }
 .header nav ul li a:hover {
   color: #2196f3;
@@ -181,8 +182,11 @@ a {
 .tel ul li a {
   fill: #757575;
 }
-.tel ul li:hover a {
+.tel ul li:hover svg {
   fill: #2196f3;
+}
+.tel ul li:hover a {
+  color: #2196f3;
 }
 .menu-svg-phone {
   width: 10px;
@@ -216,6 +220,9 @@ a {
 .innet {
   margin-top: 50px;
 }
+.innet ul li {
+  cursor: pointer;
+}
 .box {
   position: relative;
   overflow: hidden;
@@ -238,7 +245,6 @@ a {
 }
 .overlay p {
   color: #fff;
-  font-family: Roboto;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -265,7 +271,6 @@ a {
   block-size: border-box;
   width: 370px;
   flex-shrink: 0;
-  /* border: 1px solid #eee; */
 }
 .innet ul li div h3 {
   margin: 20px 24px 0;
@@ -280,15 +285,11 @@ a {
 }
 .footer__tuw {
   display: flex;
-  /* align-items: center; */
-  height: 252px;
+  padding: 60px 0;
 }
 .div__centr {
   display: flex;
   align-items: center;
-}
-.adres {
-  margin: 20px 0 0 0;
 }
 .adres ul li:not(:last-child) {
   margin: 9px 0;
@@ -300,23 +301,35 @@ ul li {
   font-weight: 500;
   line-height: 24px;
 }
+.adres a {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+}
 .footer-img {
   margin: 0 0 20px 0;
 }
 .meps {
   color: #fff;
   font-weight: 400;
-  font-family: Roboto;
 }
 .adres ul li a {
   color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
 }
 .icom {
-  margin: 75px 0 0 70px;
+  margin: 6px 0 0 70px;
 }
 .icom p {
   color: #fff;
-  font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -349,6 +362,7 @@ ul li {
 .hover {
   width: 100%;
   height: 100%;
+  cursor: pointer;
 }
 
 .hover:hover {
