@@ -189,18 +189,25 @@ a {
 }
 .tel ul li {
   display: flex;
+  align-items: center;
 }
-.tel ul li a {
+.tel ul li a:last-child {
   margin: 0 0 0 10px;
 }
-.tel ul li a {
+.tel ul li svg,
+a {
   fill: #757575;
+  transition: 0.3s;
 }
 .tel ul li:hover svg {
   fill: #2196f3;
 }
 .tel ul li:hover a {
   color: #2196f3;
+}
+.menu-svg-mail {
+  width: 16px;
+  height: 12px;
 }
 .menu-svg-phone {
   width: 10px;
@@ -376,6 +383,7 @@ ul li {
 .hover {
   width: 100%;
   height: 100%;
+  transition: 0.3s;
   cursor: pointer;
 }
 
