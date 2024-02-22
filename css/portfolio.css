@@ -153,15 +153,13 @@ a {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+  transition: 0.3s;
 }
-.header nav ul li a:hover {
+.header div ul li:hover a {
   color: #2196f3;
 }
 .header div ul li a {
   color: #757575;
-}
-.header div ul li a::before {
-  color: #2196f3;
 }
 .tel ul li:not(:last-child) {
   margin: 0 50px 0 0;
@@ -172,6 +170,9 @@ a {
 }
 .header div ul li a {
   position: relative;
+}
+.header div ul li .cross {
+  color: #2196f3;
 }
 .cross::after {
   content: "";
