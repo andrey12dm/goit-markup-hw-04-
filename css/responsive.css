@@ -1,1 +1,22 @@
 /** @format */
+@media (max-width: 480px) {
+	.item__tow {
+		width: 1200;
+	}
+}
+@media (max-width: 768px) {
+	.item__tow {
+		width: 1200;
+	}
+}
+@media (max-width: 1200px) {
+	.item__tow {
+		width: 1200;
+	}
+}
+
+@media (max-width: 1175px) {
+	.item__tow {
+		display: none;
+	}
+}
