@@ -128,10 +128,6 @@ header {
 	padding: 32px 0 32px;
 	transition: 0.3s;
 }
-/* .headre__menu nav ul li a::before {
-  position: absolute;
-  color: #2196f3;
-} */
 .headre__menu nav ul li .cross {
 	color: #2196f3;
 }
@@ -444,7 +440,6 @@ footer {
 	padding: 60px 0;
 }
 .adres {
-	/* margin: 20px 0 0 0; */
 	display: flex;
 }
 .adres .footer__one li:not(:last-child) {

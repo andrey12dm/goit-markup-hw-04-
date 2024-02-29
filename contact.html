@@ -24,7 +24,9 @@
 									<li><a href="./index.html">Студія</a></li>
 									<li><a href="./portfolio.html">Портфоліо</a></li>
 									<li>
-										<a class="header-contact" href="./contact.html">Контакти</a>
+										<a class="header-color cross" href="./contact.html"
+											>Контакти</a
+										>
 									</li>
 								</ul>
 							</nav>
@@ -52,27 +54,115 @@
 			</div>
 		</header>
 		<main>
-			<section>
+			<section class="section-form">
 				<div class="wraper">
 					<div class="conteiner">
-						<div class="s">
-							<h1>Связаться с нами</h1>
-							<p>
-								Если вы не нашли ответ в разделе часто задаваемых вопросов,
-								воспользуйтесь формой обратной связи.
-							</p>
-							<form class="form">
-								<input class="input-name" type="text" name="username" />
-								<input class="nput-mail" type="text" />
-								<input class="nput-tel" type="text" />
-								<input class="nput-" type="text" />
-								<button>Submit</button>
-							</form>
+						<div class="contact-form">
+							<div class="form-conteiner">
+								<div class="form-text">
+									<h1>Связаться с нами</h1>
+									<p class="contact-item">
+										Если вы не нашли ответ в разделе
+										<samp class="contact-text">FAQ</samp>, воспользуйтесь формой
+										обратной связи.
+									</p>
+								</div>
+								<form class="form">
+									<fieldset>
+										<input
+											class="input-name"
+											type="text"
+											name="username"
+											placeholder="John Doe"
+										/>
+										<input
+											class="input-mail"
+											type="email"
+											placeholder="johndoe@gmail.com"
+										/>
+										<input
+											class="input-tel"
+											type="tel"
+											placeholder="(888) 775-0859"
+										/>
+									</fieldset>
+									<fieldset class="form-grup">
+										<input
+											class="сooperation"
+											type="text"
+											placeholder="Cooperation"
+										/>
+										<textarea
+											class="textarea"
+											name="textarea"
+											id=""
+											rows="5"
+											placeholder="Lorem Ipsum Dolor"
+										></textarea>
+										<button class="bnt">Submit</button>
+									</fieldset>
+								</form>
+							</div>
 						</div>
 					</div>
 				</div>
 			</section>
 		</main>
-		<footer></footer>
+		<footer>
+			<div class="wraper">
+				<section class="footer__tow">
+					<div class="footer__center">
+						<address class="adres">
+							<ul class="footer__one">
+								<li>
+									<img
+										src="./images/icon-svg/logo-footer.svg"
+										alt="Логотип сайта"
+									/>
+								</li>
+								<li><p>м. Київ, пр-т Лесі Українки, 26</p></li>
+								<li>
+									<a href="mailto:info@devstudio.com">info@devstudio.com</a>
+								</li>
+								<li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+							</ul>
+							<div class="icom-footer">
+								<p>приєднуйтесь</p>
+								<ul>
+									<li class="hover">
+										<a class="title" href="#">
+											<svg class="svgso">
+												<use href="./icon.svg#icon-instagram-2"></use>
+											</svg>
+										</a>
+									</li>
+									<li class="hover">
+										<a class="title" href="#">
+											<svg class="svgso">
+												<use href="./icon.svg#icon-twitter-1"></use>
+											</svg>
+										</a>
+									</li>
+									<li class="hover">
+										<a class="title" href="#">
+											<svg class="svgso">
+												<use href="./icon.svg#icon-facebook-1"></use>
+											</svg>
+										</a>
+									</li>
+									<li class="hover">
+										<a class="title" href="#">
+											<svg class="svgso">
+												<use href="./icon.svg#icon-linkedin-1"></use>
+											</svg>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</address>
+					</div>
+				</section>
+			</div>
+		</footer>
 	</body>
 </html>
