@@ -423,3 +423,50 @@ ul li {
 	transition: 0.3s;
 	cursor: pointer;
 }
+.form {
+	display: flex;
+	margin: 5px 0 0 93px;
+}
+.form__lable {
+	margin: 0 12px 0 0;
+}
+.form__text {
+	color: #fff;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.42px;
+	text-transform: uppercase;
+	margin: 0 0 20px 0;
+}
+.form__pole {
+	width: 358px;
+	height: 50px;
+	flex-shrink: 0;
+	border-radius: 4px;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	background: rgba(33, 150, 243, 0);
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+	padding: 15px 16px;
+}
+.form__blog-bnt {
+}
+.form__bnt {
+	margin: 43px 0 0 0;
+	width: 200px;
+	height: 50px;
+	flex-shrink: 0;
+	color: #fff;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: 0.96px;
+	border-radius: 4px;
+	background: #2196f3;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+	background-image: url(./icon.svg#mail) no-repeat;
+}
