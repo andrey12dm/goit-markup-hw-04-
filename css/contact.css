@@ -188,6 +188,9 @@ nav ul li a {
 Второй блог
 
 */
+main {
+	background: linear-gradient(180deg, #e9f5f4 0%, #fff 48.38%);
+}
 .section-form {
 	padding: 100px 0;
 }
@@ -234,9 +237,6 @@ contact-forms .conteiner p {
 	margin: 0 0 40px 0;
 }
 input {
-	/* display: flex; */
-	/* flex-direction: column; */
-	/* align-items: flex-start; */
 	flex-shrink: 0;
 	border-radius: 27px;
 	border: 1px solid rgba(190, 197, 214, 1);
@@ -260,7 +260,7 @@ input {
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 300;
-	line-height: 28px; /* 140% */
+	line-height: 28px;
 }
 .form {
 	display: flex;
@@ -301,7 +301,6 @@ input {
 	justify-content: center;
 	align-items: center;
 	gap: 10px;
-	/* color-text */
 	color: var(--main-orange, #ff622a);
 	font-size: 16px;
 	font-style: normal;
@@ -321,7 +320,6 @@ footer {
 	padding: 60px 0;
 }
 .adres {
-	/* margin: 20px 0 0 0; */
 	display: flex;
 }
 .adres .footer__one li:not(:last-child) {
