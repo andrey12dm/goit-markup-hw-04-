@@ -398,10 +398,10 @@ header {
 	justify-content: center;
 	align-items: center;
 }
-/* .hover a,
+.hover a,
 .title {
-  transition: 0.3s;
-} */
+	transition: 0.3s;
+}
 .hover {
 	display: flex;
 	border-radius: 50%;
@@ -589,8 +589,6 @@ ul li {
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 	padding: 15px 16px;
 }
-.form__blog-bnt {
-}
 .form__bnt {
 	margin: 35px 0 0 0;
 	width: 200px;
@@ -632,8 +630,8 @@ ul li {
 	position: relative;
 }
 .conteiner {
-	/* width: 528px;
-	height: 581px; */
+	width: 528px;
+	height: 581px;
 	flex-shrink: 0;
 }
 .form__x {
