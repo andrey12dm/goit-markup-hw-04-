@@ -62,7 +62,9 @@
 				<div class="wraper">
 					<div>
 						<h1>Ефективні рішення для вашого бізнесу</h1>
-						<button class="modal" type="submit">Замовити послугу</button>
+						<button class="modal" type="submit" data-modal-open>
+							Замовити послугу
+						</button>
 					</div>
 				</div>
 			</section>
@@ -159,7 +161,7 @@
 				<div class="wraper">
 					<div class="innet__item">
 						<h2>Наша команда</h2>
-						<ul>
+						<ul class="innet__gup">
 							<li class="groop">
 								<img src="./images/Ihordemyanenko.jpg" alt="Фото Ігор" />
 								<div class="onever">
@@ -434,10 +436,10 @@
 				</section>
 			</div>
 		</footer>
-		<!-- <div id="popup opas" class="popup opas">
+		<div id="popup opas" class="backdrop is-hidden" data-modal>
 			<form class="popup__body">
 				<div class="conteiner">
-					<svg class="form__x">
+					<svg class="form__x" data-modal-close>
 						<use href="/icon.svg#X"></use>
 					</svg>
 					<div class="wrapper__form">
@@ -477,6 +479,7 @@
 					</div>
 				</div>
 			</form>
-		</div> -->
+		</div>
+		<script src="./js/modal.js"></script>
 	</body>
 </html>
