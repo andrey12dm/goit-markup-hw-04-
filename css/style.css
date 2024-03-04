@@ -202,9 +202,9 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 600px;
 }
 .h__one div {
+	padding: 118px 204px;
 	text-align: center;
 }
 .h__one div h1 {
