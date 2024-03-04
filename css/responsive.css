@@ -8,9 +8,19 @@
 .tel ul {
 	display: none;
 }
-
+.h__one {
+	background: linear-gradient(
+			to right,
+			rgba(47, 48, 58, 0.4),
+			rgba(47, 48, 58, 0.4)
+		),
+		url(../img-portfolio/header-mobile.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 .item ul {
 	flex-direction: column;
+	width: 100%;
 }
 .radio {
 	display: flex;
@@ -34,12 +44,54 @@
 	display: flex;
 	flex-direction: column;
 }
-
-.title {
-	flex-basis: calc((100% - 10px) / 2);
+.onever ul {
+	gap: 10px;
+}
+.icom_stile li {
+	display: flex;
+	flex-basis: calc((100% - 30px) / 2);
 	text-align: center;
 	border-radius: 50%;
 	transition: 0.3s;
+}
+.footer__center {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.icom-footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 60px 0 0 0;
+}
+.adres {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.footer__one {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	display: flex;
+	margin: 60px 0 0 0;
+}
+.orm__text {
+	display: flex;
+	justify-content: center;
+}
+.form__blog-bnt {
+	margin: 20px 0 0 0px;
 }
 @media (max-width: 768px) {
 	.item__tow {
