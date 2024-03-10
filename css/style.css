@@ -265,6 +265,7 @@ header {
 	width: 70px;
 	height: 70px;
 }
+
 .item ul div h3 {
 	width: 270px;
 	color: #212121;
@@ -415,7 +416,6 @@ header {
 }
 .title {
 	text-align: center;
-	border-radius: 50%;
 	transition: 0.3s;
 }
 .onever ul li {
@@ -669,12 +669,23 @@ ul li {
 	margin: 0 0 10px 0;
 }
 .form__inp {
+	display: block;
+	position: relative;
 	width: 448px;
 	height: 40px;
 	border-radius: 4px;
 	border: 1px solid rgba(33, 33, 33, 0.2);
 	margin: 0 0 10px 0;
+	padding: 10px;
 }
+.human {
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 0;
+	right: 0;
+}
+
 .form__lab {
 	color: #757575;
 	font-family: Roboto;

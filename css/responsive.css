@@ -1,8 +1,6 @@
 /** @format */
+
 @media (max-width: 480px) {
-	.item__tow {
-		width: 1200;
-	}
 	.headre__menu nav ul,
 	.tel ul {
 		display: none;
@@ -71,6 +69,10 @@
 		box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 		padding: 15px 16px;
 	}
+	.item ul {
+		flex-wrap: wrap;
+		flex-basis: 100%;
+	}
 	.item ul div {
 		display: flex;
 		flex-direction: column;
@@ -103,8 +105,11 @@
 		display: flex;
 		flex-basis: calc((100% - 30px) / 2);
 		text-align: center;
-		border-radius: 50%;
 		transition: 0.3s;
+	}
+
+	.icom_stile {
+		display: flex;
 	}
 	.footer__center {
 		width: 100%;
@@ -148,13 +153,47 @@
 }
 
 @media (max-width: 768px) {
+	.tel ul {
+		display: flex;
+		flex-wrap: wrap;
+	}
 	.item__tow {
 		width: 1200;
+	}
+	.item ul {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.item ul li {
+		margin: 0 30px 0 0;
 	}
 }
 @media (max-width: 1175px) {
 	.item__tow {
 		display: none;
+	}
+	.headre__menu nav ul {
+		display: flex;
+		margin: 0 96px 0 0;
+	}
+	.tel ul {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.item ul {
+		flex-wrap: wrap;
+		flex-basis: 100%;
+	}
+}
+@media (max-width: 1015px) {
+	.headre__menu nav ul {
+		display: flex;
+		margin: 0 96px 0 0;
+		justify-content: flex-end;
+	}
+	.tel ul {
+		display: flex;
+		flex-wrap: wrap;
 	}
 }
 @media (max-width: 1200px) {
