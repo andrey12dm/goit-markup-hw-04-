@@ -239,6 +239,12 @@ header {
 	background-color: #ffffff;
 	color: #2196f3;
 }
+.item__one{
+	display: flex;
+  align-items: center;
+  flex-direction: column;
+	width: 100%;
+}
 .one {
 	padding: 94px 0 94px 0;
 }
