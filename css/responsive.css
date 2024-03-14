@@ -295,7 +295,8 @@
 		letter-spacing: 0.42px;
 		margin: 10px 0 0 0;
 	}
-	.form__lable {
+	.form__lable
+ {
 		width: 100%;
 	}
 	.form__pole {
