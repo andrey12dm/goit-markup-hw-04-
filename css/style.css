@@ -294,9 +294,9 @@ header {
 	letter-spacing: 0.42px;
 	margin: 10px 0 0 0;
 }
-.item ul li:not(:last-child) {
+/* .item ul li:not(:last-child) {
 	margin: 0 30px 0 0;
-}
+} */
 .item__tow h2 {
 	height: 42px;
 	color: #212121;
@@ -361,9 +361,9 @@ header {
 	box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
 		0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
-.innet__item ul .groop:not(:last-child) {
+/* .innet__item ul .groop:not(:last-child) {
 	margin: 0 30px 0 0;
-}
+} */
 .innet__item ul li div {
 	text-align: center;
 }

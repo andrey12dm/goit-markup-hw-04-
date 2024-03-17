@@ -3,7 +3,7 @@
 		display: none;
 	}
 	.h__one{
-		background: rgba(47, 48, 58, 0.40) url(../images/fonts-mobil.png);
+		background: rgba(47, 48, 58, 0.40) url(../images/mobile/fonts-mobil.png);
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
@@ -41,11 +41,11 @@
 		flex-wrap: wrap;
 		justify-content: center;
 	}
-	.item ul li:not(:last-child) {
-    margin: 0;
-	}
 	.flex div,.item ul li,.item ul div h3,.item ul div p{
 		width: 100%;
+	}
+	.item ul .flex{
+		margin-bottom: 30px;
 	}
 	.radio{
 		width: 100%;
@@ -78,8 +78,8 @@
 		display: flex;
 		flex-wrap: wrap;
 	}
-	.innet__item ul .groop:not(:last-child) {
-    margin: 0;
+	.innet__item ul .groop {
+    margin: 0 0 30px 0;
 	}
 	.onever ul li:not(:last-child) {
     margin: 0 10px 0 0;
@@ -102,14 +102,23 @@
 	.icom_stile {
 		display: flex;
 		flex-wrap: wrap;
+		align-items: flex-start;
 	}
 	.icom-title{	
+		max-width: 210px;
 		flex-basis: calc((100% - 30px) / 2);
 		margin: 0;
 	}
-	.icom-title:nth-child(odd) {
-    margin: 0 30px 0 0;
+	.icom-title {
+		margin-bottom: 30px;
+		
 	}
+	.icom-title:nth-child(odd) {
+		margin:0 30px 0 0 ;
+	}
+	.item ul .groop {
+			margin: 0 0 30px 0;
+		}
 	.footer__center{
 		display: flex;
 		flex-wrap: wrap;
@@ -147,7 +156,45 @@
 	}
 }
 @media (min-width: 768px) {
-	
+	.headre__menu,.tel{
+		display:contents;
+	}
+	.tel ul{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.headre__cont {
+		justify-content: space-around;
+	}
+	.headre__menu nav ul{
+		margin: 0 0 0 88px;
+	}
+	.h__one{
+		background: rgba(47, 48, 58, 0.40) url(../images/tablet/fonts-tablet.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.item ul li{
+		max-width: 354px;
+		flex-basis:calc((100% - 10px) / 2);
+	}
+	.innet__gup{
+		flex-wrap: wrap;
+	}
+	.item ul li:nth-child(2n) {
+    margin-left: 30px;
+	}
+	.icom-title {
+    flex-basis: calc((100% - 10px) / 3);
+    max-width: 226px;
+	}
+	.innet__item ul li:nth-child(2n) {
+    margin-left: 30px;
+	}
+	.icom_stile li:nth-child(-n+5){
+		margin: 0 0 30px 0;
+	}
 }
 @media (min-width: 1200px) {
 	.title {

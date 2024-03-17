@@ -162,12 +162,13 @@
 					<div class="innet__item">
 						<h2>Наша команда</h2>
 						<ul class="innet__gup">
-							<li class="groop">
+							<li class="groop groop__flex">
 								<picture>
-									<source srcset="./images/Ihordemyanenko.jpg x1" />
-									<source srcset="./images/p/x2 х2" />
+									<source srcset="./images/Ihordemyanenko.jpg 1x, ./images/p/Ihordemyanenko-2x.jpg 2x"  media="(min-width: 1200px)"width="270" height="260" />
+									<source srcset="./images/tablet/Ihordemyanenko-tablet.jpg 1x, ./images/p/tablet/Ihordemyanenko-2x.jpg 2xx" media="(min-width: 768px)" />
+									<source srcset="./images/mobile/Ihordemyanenko-mobile.jpg 1x, ./images/p/mobile/Ihordemyanenko-2x.jpg 2x " media="(min-width: 480px)" />
+									<img src="./images/Ihordemyanenko.jpg" alt="Фото Ігор" />
 								</picture>
-								<img src="./images/Ihordemyanenko.jpg" alt="Фото Ігор" />
 								<div class="onever">
 									<h3>Ігор Дем'яненко</h3>
 									<p>Product Designer</p>
@@ -203,8 +204,13 @@
 									</ul>
 								</div>
 							</li>
-							<li class="groop">
-								<img src="./images/repina.jpg" alt="Фото Ольги" />
+							<li class="groop groop__flex">
+								<picture>
+									<source srcset="./images/repina.jpg 1x, ./images/p/repina-2x.jpg 2x"  media="(min-width: 1200px)" width="270" height="260" />
+									<source srcset="./images/tablet/repina-tablet.jpg 1x ./images/p/tablet/repina-2x.jpg 2x " media="(min-width: 768px)" />
+									<source srcset="./images/mobile/repina-mobile.jpg 1x, ./images/p/mobile/repina-2x.jpg 2x" media="(min-width: 480px)" />
+									<img src="./images/repina.jpg" alt	="Фото Ольги" />
+								</picture>
 								<div class="onever">
 									<h3>Ольга Рєпіна</h3>
 									<p>Frontend Developer</p>
@@ -240,9 +246,14 @@
 									</ul>
 								</div>
 							</li>
-							<li class="groop">
-								<img src="./images/tarasov.jpg" alt="Фото Миколи" />
+							<li class="groop groop__flex">
 								<div class="onever">
+									<picture>
+										<source srcset="./images/tarasov.jpg ./images/p/tarasov-2x.jpg 2x" media="(min-width: 1200px)" />
+										<source srcset="./images/tablet/tarasov-tablet.jpg 1x, ./images/p/tablet/tarasov-2x.jpg 2x " media="(min-width: 768px)" />
+										<source srcset="./images/mobile/tarasov-modile.png 1x, ./images/p/mobile/tarasov-2x.jpg 2x" media="(min-width: 480px)" />		
+										<img src="./images/tarasov.jpg" alt="фото Миколи" />
+									</picture>
 									<h3>Микола Тарасов</h3>
 									<p>Marketing</p>
 									<ul>
@@ -277,8 +288,13 @@
 									</ul>
 								</div>
 							</li>
-							<li class="groop">
-								<img src="./images/ermakov.jpg" alt="Фото Михайла" />
+							<li class="groop groop__flex">
+								<picture>
+									<source srcset="./images/ermakov.jpg ./images/p/ermakov-2x.jpg 2x" media="(min-width: 1200px)" />
+									<source srcset="./images/tablet/ermakov-tablet.jpg 1x.], ./images/p/tablet/ermakov-2x.jpg 2x " media="(min-width: 768px)" />
+									<source srcset="./images/mobile/ermakov-mobile.jpg 1x, ./images/p/mobile/ermakov-2x.jpg 2x" media="(min-width: 480px)" />
+									<img src="./images/ermakov.jpg" alt="Фото Михайла" />
+								</picture>
 								<div class="onever">
 									<h3>Михайло Єрмаков</h3>
 									<p>UI Designer</p>
