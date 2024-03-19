@@ -1,0 +1,38 @@
+@media (min-width: 480px) {
+	.adres__portfolio {
+    display: flex;
+    flex-direction: column
+	}
+	.form div p{
+		display: flex;
+		justify-content: center;
+	}
+	.menu__tow li{
+		display: flex;
+		flex-wrap:wrap;
+	}
+	.nav{
+		display: none;
+	}
+}
+@media (min-width: 768px) {
+	.wraper{
+		display: flex;
+		justify-content: center;
+		max-width: 650px;
+	}
+	.adres__portfolio {
+    display: flex;
+    flex-direction: row;
+		max-width: 670px;
+	}
+}
+@media (min-width: 1200px) {
+  .adres__portfolio {
+    display: flex;
+		flex-direction: row;
+		}
+		.footer__tow{
+			max-width: 1200px;
+		}
+}

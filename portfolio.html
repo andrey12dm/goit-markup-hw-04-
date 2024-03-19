@@ -12,12 +12,13 @@
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="./css/normalize.css" />
+		<link rel="stylesheet" href="./css/responsive-media.css">
 		<link rel="stylesheet" href="./css/responsive.css" />
 		<title>Document</title>
 	</head>
 	<body>
 		<header class="header">
-			<div class="wrapper">
+			<div class="wraper">
 				<div class="header__top">
 					<div class="menu">
 						<div class="blog">
@@ -56,9 +57,9 @@
 		</header>
 		<main class="main">
 			<section>
-				<div class="wrapper">
+				<div class="wraper">
 					<div>
-						<div class="item">
+						<div class="item__nav">
 							<ul class="menu__tow">
 								<li><a href="#">Усі</a></li>
 								<li><a href="#">Веб-сайти</a></li>
@@ -252,76 +253,77 @@
 				</div>
 			</section>
 		</main>
-		<footer class="footer">
-			<div class="wrapper">
-				<section class="footer__tuw">
-					<div class="div__centr">
-						<div class="adres">
-							<div class="footer-img">
-								<img src="./img-portfolio/logo-footer.svg" alt="Логотип" />
+		<footer>
+			<section class="footer__tow">
+				<div class="wraper">
+					<div class="footer__center">
+						<address class="adres__portfolio">
+							<ul class="footer__one">
+								<li>
+									<img
+										src="./images/icon-svg/logo-footer.svg"
+										alt="Логотип сайта"
+									/>
+								</li>
+								<li><p>м. Київ, пр-т Лесі Українки, 26</p></li>
+								<li>
+									<a href="mailto:info@devstudio.com">info@devstudio.com</a>
+								</li>
+								<li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+							</ul>
+							<div class="icom-footer">
+								<p>приєднуйтесь</p>
+								<ul>
+									<li class="hover">
+										<a class="title" href="#">
+											<svg class="svgso">
+												<use href="./icon.svg#icon-instagram-2"></use>
+											</svg>
+										</a>
+									</li>
+									<li class="hover">
+										<a class="title__item" href="#">
+											<svg class="svgso">
+												<use href="./icon.svg#icon-twitter-1"></use>
+											</svg>
+										</a>
+									</li>
+									<li class="hover">
+										<a class="title" href="#">
+											<svg class="svgso">
+												<use href="./icon.svg#icon-facebook-1"></use>
+											</svg>
+										</a>
+									</li>
+									<li class="hover">
+										<a class="title" href="#">
+											<svg class="svgso">
+												<use href="./icon.svg#icon-linkedin-1"></use>
+											</svg>
+										</a>
+									</li>
+								</ul>
 							</div>
-							<a class="meps" href="#">м. Київ, пр-т Лесі Українки, 26</a>
-							<ul>
-								<li>
-									<a href="mailto:info@example.com">info@example.com</a>
-								</li>
-								<li>
-									<a href="tel:+380961111111">+38 096 111 11 11</a>
-								</li>
-							</ul>
-						</div>
+						</address>
+						<form class="form" action="#">
+							<div>
+								<p class="form__text">Підпишіться на розсилку</p>
+								<div class="form__lable">
+							</div>
+								<input
+									class="form__pole"
+									type="email"
+									name="email"
+									placeholder="E-mail"
+								/>
+							</div>
+							<div class="form__blog-bnt">
+								<button class="form__bnt" type="submit">Підписатися</button>
+							</div>
+						</form>
 					</div>
-					<div class="icom">
-						<div>
-							<p>приєднуйтесь</p>
-							<ul>
-								<li class="hover">
-									<a class="title" href="#">
-										<svg class="svgso">
-											<use href="./icon.svg#icon-instagram-2"></use>
-										</svg>
-									</a>
-								</li>
-								<li class="hover">
-									<a class="title" href="#">
-										<svg class="svgso">
-											<use href="./icon.svg#icon-twitter-1"></use>
-										</svg>
-									</a>
-								</li>
-								<li class="hover">
-									<a class="title" href="#">
-										<svg class="svgso">
-											<use href="./icon.svg#icon-facebook-1"></use>
-										</svg>
-									</a>
-								</li>
-								<li class="hover">
-									<a class="title" href="#">
-										<svg class="svgso">
-											<use href="./icon.svg#icon-linkedin-1"></use>
-										</svg>
-									</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<form class="form" action="#">
-						<div class="form__lable">
-							<p class="form__text">Підпишіться на розсилку</p>
-							<input
-								class="form__pole"
-								type="email"
-								name="email"
-								placeholder="E-mail"
-							/>
-						</div>
-						<div class="form__blog-bnt">
-							<button class="form__bnt" type="submit">Підписатися</button>
-						</div>
-					</form>
-				</section>
-			</div>
+				</div>
+			</section>
 		</footer>
 	</body>
 </html>
