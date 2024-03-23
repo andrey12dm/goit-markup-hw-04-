@@ -82,6 +82,9 @@ body {
 	font-weight: normal;
 	box-sizing: border-box;
 }
+body._luck{
+	overflow: hidden;
+}
 html {
 	box-sizing: border-box;
 	width: 100%;
@@ -475,7 +478,7 @@ ul li {
 	height: 20px;
 }
 /* _---------------- menu mobile------------------- */
-.nav {
+/* .nav {
 	position: relative;
 }
 .headre__burger{
@@ -524,6 +527,6 @@ ul li {
 	width: 100%;
 	height: 100%;
 	z-index: 50px;
-	/* background-color: #757575; */
+	background-color: #757575;
 	padding: 100px 0 0 0;
-}
+} */
