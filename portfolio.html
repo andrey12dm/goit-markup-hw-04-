@@ -13,7 +13,7 @@
 		/>
 		<link rel="stylesheet" href="./css/normalize.css" />
 		<link rel="stylesheet" href="./css/responsive-media.css">
-		<link rel="stylesheet" href="./css/responsive.css" />
+		<!-- <link rel="stylesheet" href="./css/responsive.css" /> -->
 		<title>Document</title>
 	</head>
 	<body>
@@ -26,13 +26,19 @@
 								><img src="./img-portfolio/logo-header.svg" alt="Логотип"
 							/></a>
 						</div>
-						<div class="nav">
-							<nav>
-								<ul>
-									<li><a href="index.html">Студія</a></li>
-									<li><a class="cross" href="portfolio.html">Портфоліо</a></li>
-									<li><a href="./contact.html">Контакти</a></li>
-								</ul>
+						<div class="headre__burger">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+							<nav class="nav">
+								<div class="wraper">
+									<ul>
+										<li><a href="index.html">Студія</a></li>
+										<li><a class="cross" href="portfolio.html">Портфоліо</a></li>
+										<li><a href="./contact.html">Контакти</a></li>
+									</ul>
+								</div>
 							</nav>
 						</div>
 					</div>
@@ -42,13 +48,13 @@
 								<svg class="menu-svg-mail">
 									<use href="./icon.svg#mail"></use>
 								</svg>
-								<a href="mailto:info@devstudio.com">info@devstudio.com</a>
+								<a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
 							</li>
 							<li>
 								<svg class="menu-svg-phone">
 									<use href="./icon.svg#phone"></use>
 								</svg>
-								<a href="tal:+380961111111">+38 096 111 11 11</a>
+								<a class="phone" href="tal:+380961111111">+38 096 111 11 11</a>
 							</li>
 						</ul>
 					</div>
@@ -73,7 +79,12 @@
 								<li>
 									<div class="overlay-li">
 										<div class="box">
-											<img src="./img-portfolio/website.png" alt="Сайт" />
+											<picture>
+												<source srcset="./img-portfolio/website.png 1x, ./img-portfolio/retina/website-2x.jpg@2x"  media="(min-width: 1200px)" />
+												<source srcset="./img-portfolio/tablet/website.jpg 1x, ./img-portfolio/retina/tablt/website-2x.jpg@2x" media="(min-width: 768px)" />
+												<source srcset="./images/mobile/Ihordemyanenko-mobile.jpg 1x, ./images/p/mobile/Ihordemyanenko-2x.jpg@2x " media="(min-width: 480px)" />
+												<img src="./img-portfolio/website.png" alt="Сайт" />
+											</picture>
 											<div class="overlay">
 												<p>
 													Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -325,5 +336,6 @@
 				</div>
 			</section>
 		</footer>
+		<script src="./js/script.js"></script>
 	</body>
 </html>
