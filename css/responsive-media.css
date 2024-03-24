@@ -6,6 +6,7 @@
 		left: 0;
 		z-index: 50;
 		display: flex;
+		z-index: 10;
 	}
 	.headre__burger{
 		display: block;
@@ -13,15 +14,16 @@
 		width: 30px;
 		height: 20px;
 		z-index: 3;
+		
 	}
-	header::before{
+	/* header::before{
 		content: '';
 		position: absolute;
 		width: 100%;
 		height: 100%;
 		top: 0;
 		left: 0;
-		background-color: #FFF;
+		background-color: #FFF; */
 	}
 	.headre__burger span{
 		top: 50%;
@@ -34,13 +36,16 @@
 	.headre__burger:before,
 	.headre__burger:after	{
 	content:'';
-	background-color: #2196f3;
+	background-color: #212121;
 	position: absolute;
 	transition: all 0.3s ease 0s;
 	width: 100%;
 	height: 2px;	
 	left: 0;
 	}
+	/* .headre__burger._active span:hover{
+		background-color: #2196f3;
+	} */
 	.headre__burger::before{
 		top: 0;
 	}
@@ -65,6 +70,7 @@
 		background-color: #FFF;
 		padding: 170px 0 0 0;
 		transition: all 0.3s ease 0s;
+		z-index: 2;
 	}
 	.nav._active{
 		transform: translate(0px, 0px);
@@ -78,15 +84,34 @@
 	}
 	.tel._active{
 		position: absolute;
-		display: flex;
+		display: block;
 		top: 0;
-		left: 0;
-		/* z-index: 60; */
+		left: 40px;
+		z-index: 2;
 		margin: 562px 0 0 0 ;
-
+	}
+	.tel._active ul{
+		display: block;
+	}
+	.icon__menu._active{
+		display: flex;
+		position: absolute;
+		top: 726px;
+		left: 40px;
+		z-index: 2;
+		/* margin: 726px 0 0 0; */
+	}
+	.icon__menu._active ul {
+		display: flex;
+	}
+	.icon__menu ul li:not(:last-child) {
+		margin:0 20px 0 0 ;
+	}
+	.icon__menu._active ul li a{
+		color: #2196f3;
 	}
 	.header__top{
-		display: flex;
+		display: flex;	
 	}
 	.header__top nav ul {
     display: block;
@@ -111,6 +136,9 @@
 		font-weight: 500;
 	}
 	.tel{
+		display: none;
+	}
+	.icon__menu{
 		display: none;
 	}
 	.tel ul{
@@ -160,15 +188,82 @@
 	.innet{
 		max-width: 738px;
 	}
-}
 @media (min-width: 768px) {
+	header{
+		position: static;
+		width: 100%;
+		top: 0;
+		left: 0;
+		z-index: 50;
+		display: flex;
+		z-index: 0;
+		height: 80px;
+	}
+	.wraper {
+    display: flex;
+    justify-content: center;
+    max-width: 768px;
+}
+	.tel ul{
+		display: flex;
+		flex-direction: row;
+	}
+	.cross::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 4px;
+		background-color: #2196f3;
+		border-radius: 2px;
+	}
+	.header div ul li .phone {
+		color: #757575;
+		font-family: Roboto;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+		letter-spacing: 0.24px;
+	}
+	.menu-svg-mail,.menu-svg-phone{
+		display: block;
+	}
+	.headre__burger{
+		display: none;
+	}
 	.wraper{
 		display: flex;
 		justify-content: center;
 		max-width: 738px;
 	}
 	.nav{
+		content:'';
+		position: static;
 		display: flex;
+		transition: none;
+		width: 0;
+    height: 0;
+    transform: none;
+    background-color: #FFF;
+    padding:0;
+    transition: none;
+    z-index: 0;
+	}
+	.header__top nav ul {
+		display: flex;
+    /* align-items: center; */
+    margin:0;
+	}
+	.header div nav ul li a{
+		color: #212121;
+		font-family: Roboto;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+		letter-spacing: 0.28px;
 	}
 	.menu{
 		margin: 0 90px 0 0;
@@ -198,10 +293,6 @@
     display: flex;
     justify-content: center;
     max-width: 1200px;
-	}
-	.tel ul{
-		display: flex;
-		flex-direction: row;
 	}
   .adres__portfolio {
     display: flex;
